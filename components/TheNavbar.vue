@@ -1,7 +1,7 @@
 <template>
   <nav>
-    <NuxtLink class="nav-el" to="/home">Home</NuxtLink>
-    <NuxtLink class="nav-el" to="/main">Main</NuxtLink>
+    <NavButton class="nav-el" button-text="Home" route="/home" />
+    <NavButton class="nav-el" button-text="Main" route="/home" />
   </nav>
 </template>
 
@@ -19,7 +19,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: darkslategrey;
+  background-color: rgb(202, 222, 233);
   margin: 0;
 }
 
