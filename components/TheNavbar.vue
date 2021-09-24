@@ -1,7 +1,9 @@
 <template>
   <nav>
-    <NavButton class="nav-el" button-text="Home" route="/home" />
-    <NavButton class="nav-el" button-text="Main" route="/home" />
+    <NavButton class="nav-el" button-text="Главная" route="/home" />
+    <NavButton class="nav-el" button-text="События" route="/events" />
+    <NavButton class="nav-el" button-text="Общение" route="/chat" />
+    <NavButton class="nav-el" button-text="Помощь" route="/help" />
     <TheRegistrationButton class="nav-el" />
     <TheLoginButton class="nav-el" />
   </nav>

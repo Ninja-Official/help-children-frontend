@@ -1,12 +1,6 @@
 <template>
   <div>
-    <TheNavBar />
+    <TheNavbar />
     <Nuxt />
   </div>
 </template>
-
-<script>
-  export default {
-    
-  }
-</script>
