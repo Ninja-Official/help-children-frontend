@@ -2,6 +2,8 @@
   <nav>
     <NavButton class="nav-el" button-text="Home" route="/home" />
     <NavButton class="nav-el" button-text="Main" route="/home" />
+    <TheRegistrationButton class="nav-el" />
+    <TheLoginButton class="nav-el" />
   </nav>
 </template>
 
