@@ -1,11 +1,8 @@
 <template>
   <nav>
-    <NavButton class="nav-el" button-text="Главная" route="/home" />
-    <NavButton class="nav-el" button-text="События" route="/events" />
-    <NavButton class="nav-el" button-text="Общение" route="/chat" />
-    <NavButton class="nav-el" button-text="Помощь" route="/help" />
-    <TheRegistrationButton class="nav-el" />
-    <TheLoginButton class="nav-el" />
+    <TheAppLogo class="nav-el"/>
+    <TheNavButtonsRoutesSection class="nav-el" />
+    <TheAuthorizationSection class="nav-el" />
   </nav>
 </template>
 
@@ -23,8 +20,9 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(202, 222, 233);
+  background-color: white;
   margin: 0;
+  box-shadow: 0 4px 4px 0 rgba(0,0,0,.2);
 }
 
 .nav-el {
