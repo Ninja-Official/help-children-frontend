@@ -1,7 +1,9 @@
 <template>
-  <div>
-    There is gonna be concrete event info
-  </div>
+  <PageBase>
+    <div>
+      There is gonna be concrete event info
+    </div>
+  </PageBase>
 </template>
 
 <script>
