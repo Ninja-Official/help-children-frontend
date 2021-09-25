@@ -1,5 +1,5 @@
 <template>
-  <div class="accent-button">
+  <div v-bind:onClick="onClick()" class="accent-button">
     {{ buttonText }}
     <img v-if="buttonImage !== ''" v-bind:src="buttonImage">
   </div>
@@ -15,6 +15,10 @@
       buttonImage: {
         type: String,
         default: ""
+      },
+      onClick: {
+        type: Function,
+        default: () => {}
       }
     }
   }
@@ -33,6 +37,11 @@
   border-radius: $main-border-radius;
   height: 50px;
   font-weight: bold;
+  padding: 10px;
+}
+
+.accent-button:hover {
+  background-color: $accent-color-red-darker;
 }
 
 </style>
