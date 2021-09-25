@@ -14,7 +14,7 @@
         alt=""
         srcset=""
         style="
-          z-index: 999;
+          z-index: 99;
           filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.2));
         "
       />
@@ -66,24 +66,60 @@
     </div>
 
     <div class="start-help-block">
-      <b-row>
-        <b-col>1 of 3</b-col>
-        <b-col cols="12" md="auto">Variable width content</b-col>
-        <b-col col lg="2">3 of 3</b-col>
-      </b-row>
-      <h2 class="page-text info-title" style="text-align: center">
+      <div class="column">
+        <h2 class="page-text info-title" style="text-align: center">
         Стань
         <span class="highlighted-word">одним</span> из нас
-      </h2>
-      <p
+        </h2>
+         <!-- <p
         class="page-text info-text"
         style="text-align: center; margin-bottom: 20px"
       >
-        Сейчас в реализации находятся еще<br />
-        {{ eventsTodoCount }} мероприяий, и это только начало!
-      </p>
-      <!-- <button class="start-help-button">Я могу помочь</button> -->
+        Сейчас готовятся еще<br />
+        <span class="highlighted-word">{{ eventsTodoCount }}</span> мероприяий, и это только начало!
+      </p> -->
+      <img  
+          src="https://media.istockphoto.com/photos/happy-kid-in-glasses-holding-hands-up-picture-id1149081585?k=20&m=1149081585&s=612x612&w=0&h=CL6rSThOYQppuo1zMAv7T2Ps_ZBX_SzgNWmiVhLB-Ps="
+          img-width="150"
+          img-height="200"
+          style="
+          text-shadow: 1px 1px 2px #333; 
+          border-radius: 20px 
+          width: 150px; 
+          height: 200px; 
+          bject-fit: cover;"/>
+        <!-- <b-row>
+          <b-col>1 of 3</b-col>
+          <b-col cols="12" md="auto">Variable width content</b-col>
+          <b-col col lg="2">3 of 3</b-col>
+        </b-row> -->
+      </div>
+      <div class="column">
+        <img  
+          src="https://images.unsplash.com/photo-1489710437720-ebb67ec84dd2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aGFwcHklMjBjaGlsZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80"
+          img-width="150"
+          img-height="235"
+          style="
+          text-shadow: 1px 1px 2px #333; 
+          border-radius: 20px 
+          width: 150px; 
+          height: 235px; 
+          bject-fit: cover;"/>
+      </div>
     </div>
+    <div>
+      <p
+        class="page-text info-text"
+        style="text-align: center; margin-bottom: 50px; margin-top: 50px"
+      >
+        
+      <button class="start-help-button">
+        <b>Хочу помочь</b>
+      </button>
+      </p>
+      
+    </div>
+    
   </PageBase>
 </template>
 
@@ -95,6 +131,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .start-help-button {
