@@ -29,7 +29,6 @@ body {
 }
 
 .content-page {
-  margin-top: 50px;
   display: flex;
   height: 100%;
   justify-content: center;
