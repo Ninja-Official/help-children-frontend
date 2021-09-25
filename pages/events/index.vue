@@ -1,6 +1,8 @@
 <template>
   <div>
-    There is gonna be events list
+    <PageBase>
+      <p>Aboba</p>
+    </PageBase>
     <TheCreateEventButton />
   </div>
 </template>
