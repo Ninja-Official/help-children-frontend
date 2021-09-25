@@ -67,18 +67,19 @@
 
     <div class="start-help-block">
       <div class="column">
-        <h2 class="page-text info-title" style="text-align: center">
-        Стань
-        <span class="highlighted-word">одним</span> из нас
+        <h2 class="page-text info-title" style="text-align: left">
+          Стань
+          <span class="highlighted-word">одним</span> из нас
         </h2>
-         <!-- <p
-        class="page-text info-text"
-        style="text-align: center; margin-bottom: 20px"
-      >
-        Сейчас готовятся еще<br />
-        <span class="highlighted-word">{{ eventsTodoCount }}</span> мероприяий, и это только начало!
-      </p> -->
-      <img  
+        <p
+          class="page-text info-text"
+          style="text-align: left; margin-bottom: 20px; padding-right: 10px"
+        >
+          Сейчас в реализации находятся еще<br />
+          <span class="highlighted-word">{{ eventsTodoCount }}</span>
+          мероприяий, и это только начало!
+        </p>
+        <img
           src="https://media.istockphoto.com/photos/happy-kid-in-glasses-holding-hands-up-picture-id1149081585?k=20&m=1149081585&s=612x612&w=0&h=CL6rSThOYQppuo1zMAv7T2Ps_ZBX_SzgNWmiVhLB-Ps="
           img-width="150"
           img-height="200"
@@ -87,24 +88,21 @@
           border-radius: 20px 
           width: 150px; 
           height: 200px; 
-          bject-fit: cover;"/>
-        <!-- <b-row>
-          <b-col>1 of 3</b-col>
-          <b-col cols="12" md="auto">Variable width content</b-col>
-          <b-col col lg="2">3 of 3</b-col>
-        </b-row> -->
+          bject-fit: cover;"
+        />
       </div>
       <div class="column">
-        <img  
+        <img
           src="https://images.unsplash.com/photo-1489710437720-ebb67ec84dd2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aGFwcHklMjBjaGlsZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80"
           img-width="150"
-          img-height="235"
+          img-height="330"
           style="
           text-shadow: 1px 1px 2px #333; 
           border-radius: 20px 
           width: 150px; 
-          height: 235px; 
-          bject-fit: cover;"/>
+          height: 330px; 
+          bject-fit: cover;"
+        />
       </div>
     </div>
     <div>
@@ -112,14 +110,11 @@
         class="page-text info-text"
         style="text-align: center; margin-bottom: 50px; margin-top: 50px"
       >
-        
-      <button class="start-help-button">
-        <b>Хочу помочь</b>
-      </button>
+        <button class="start-help-button">
+          <b>Хочу помочь</b>
+        </button>
       </p>
-      
     </div>
-    
   </PageBase>
 </template>
 
