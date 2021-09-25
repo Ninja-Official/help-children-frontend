@@ -17,7 +17,7 @@
   height: 10px;
   width: 10px;
   border-radius: 50%;
-  background-color: #FF8099;
+  background-color: #FF4459;
 }
 
 </style>
