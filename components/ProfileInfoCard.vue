@@ -37,7 +37,7 @@
       </div>
       <meter value="56" max="100" low="10" high="60">Нормальная</meter>
     </div>
-    <button class="card-button" style="margin-bottom: 10px; margin-top: 21px">
+    <button class="card-button" style="margin-bottom: 10px; margin-top: 15px">
       Я хочу
     </button>
     <button class="card-button">Пройти профориентацию</button>
@@ -139,7 +139,7 @@ hr {
 }
 #profile-card {
   width: 297px;
-  height: 458px;
+  height: 465px;
   background-position: top;
   background-repeat: no-repeat;
   background-size: auto;

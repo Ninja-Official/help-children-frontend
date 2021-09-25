@@ -1,10 +1,10 @@
 <template>
   <div class="buttons-section">
-    <NavButton button-text="Главная" route="/home" />
+    <NavButton button-text="Главная" route="/" />
     <NavCircleSeparator />
     <NavButton button-text="Мероприятия" route="/events" />
     <NavCircleSeparator />
-    <NavButton button-text="Галерея" route="/gallery" />
+    <NavButton button-text="Сообщения" route="/messenger" />
   </div>
 </template>
 
