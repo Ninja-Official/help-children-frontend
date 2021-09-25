@@ -16,12 +16,8 @@ export default {
 
 <style scoped>
 
-body { 
-  padding-top: 40px; 
-}
-
 nav {
-  position: fixed;
+  position: sticky;
   z-index: 100;
   top: 0px;
   width: 100%;
