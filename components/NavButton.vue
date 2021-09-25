@@ -1,6 +1,6 @@
 <template>
   <div class="nav-btn-link">
-    <NuxtLink v-bind:to="route"> {{ buttonText }} </NuxtLink>
+    <NuxtLink class="nav-btn" v-bind:to="route"> {{ buttonText }} </NuxtLink>
   </div>
 </template>
 
@@ -22,7 +22,12 @@
 <style scoped>
 
 .nav-btn {
-  
+  text-decoration: none;
+  color: rgb(107, 107, 107);
+}
+
+.nav-btn:hover {
+  color: black;
 }
 
 .nav-btn-link {
