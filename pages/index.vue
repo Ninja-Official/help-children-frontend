@@ -9,7 +9,15 @@
       >
     </h1>
     <div class="map-block">
-      <img :src="mapImage" alt="" srcset="" />
+      <img
+        :src="mapImage"
+        alt=""
+        srcset=""
+        style="
+          z-index: 999;
+          filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.2));
+        "
+      />
       <div class="map-text">
         <h2 class="page-text info-title" style="text-align: right">
           Нас уже <span class="highlighted-word">{{ usersCount }}</span>
@@ -58,12 +66,30 @@
     </div>
 
     <div class="start-help-block">
-      <button class="start-help-button">Я могу помочь</button>
+      <b-row>
+        <b-col>1 of 3</b-col>
+        <b-col cols="12" md="auto">Variable width content</b-col>
+        <b-col col lg="2">3 of 3</b-col>
+      </b-row>
+      <h2 class="page-text info-title" style="text-align: center">
+        Стань
+        <span class="highlighted-word">одним</span> из нас
+      </h2>
+      <p
+        class="page-text info-text"
+        style="text-align: center; margin-bottom: 20px"
+      >
+        Сейчас в реализации находятся еще<br />
+        {{ eventsTodoCount }} мероприяий, и это только начало!
+      </p>
+      <!-- <button class="start-help-button">Я могу помочь</button> -->
     </div>
   </PageBase>
 </template>
 
-<style>
+<style lang="scss">
+@import "../assets/constants.scss";
+
 .start-help-block {
   padding-top: 71px;
   display: flex;
@@ -78,7 +104,7 @@
 
   align-items: center;
 
-  color: #ffffff;
+  color: $font-bright-color;
 
   width: 228.94px;
   height: 50px;
@@ -86,7 +112,7 @@
   padding: 0;
   border: none;
 
-  background: #ff4459;
+  background: $accent-color-red;
   border-radius: 10px;
 }
 
@@ -102,7 +128,7 @@
 
 .page-text {
   /* font-family: Inter; */
-  color: #2d3436;
+  color: $font-bold-color;
 }
 
 .map-text {
@@ -143,8 +169,14 @@
 }
 
 .highlighted-word {
-  text-shadow: 0px 4px 0 #fff;
-  color: #ff4459;
+  text-shadow: 0px 4px 0 $font-bright-color;
+  color: $accent-color-red;
+
+  // display: inline;
+
+  background-color: #55efc4;
+
+  border-radius: 999px;
 }
 
 .background-rectangle {
@@ -179,6 +211,9 @@ export default {
       return 1234567;
     },
     eventsCount() {
+      return 957;
+    },
+    eventsTodoCount() {
       return 957;
     },
   },
