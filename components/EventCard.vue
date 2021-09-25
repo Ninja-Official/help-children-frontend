@@ -2,16 +2,10 @@
   <NuxtLink class="not-decorate" v-bind:to="'/events/'+ id">
     <div class="card">
       <img class="preview-img" src="https://vdnh.ru/%D0%90%D1%80%D0%BA%D0%B0_A.C._-8267.jpg">
-      <div class="date-container flex-el">
-        <img src="../static/icon-calendar.svg">
-        <p class="date text"> {{ date }} </p>
-      </div>
-      <h2 class="text flex-el"> {{ name }} </h2>
-      <div class="location-container flex-el">
-        <img src="../static/icon-map-pin.svg">
-        <p class="location text"> {{ location }} </p>
-      </div>
-      <ActionButton />
+      <DateInfo class="text" v-bind:date="date"/>
+      <h2 class="text"> {{ name }} </h2>
+      <LocationInfo class="text" v-bind:location="location" />
+      <ActionButton buttonText="Хочу пойти!" class="apply-button" />
     </div>
   </NuxtLink>
 </template>
@@ -44,6 +38,7 @@
 @import "../assets/constants.scss";
 
 $card-left-margin: 15px;
+$card-padding: 15px;
 
 .card {
   display: flex;
@@ -51,30 +46,27 @@ $card-left-margin: 15px;
   height: 400px;
   border-radius: 15px;
   background-color: rgb(255, 255, 255);
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+  box-shadow: $main-box-shadow;
   margin: 30px;
   text-decoration: none;
+  overflow: hidden;
+  padding: $card-padding;
 
   h2 {
     font-size: $font-size-2;
     color: $font-bold-color;
     font-weight: bold;
-    margin-left: $card-left-margin + 6px;
+    margin-left: 6px;
   }
 }
 
 .date-container {
   display: flex; 
   align-items: center;
-  margin-top: 10px;
 
   .date {
     font-size: $font-size-1;
   }
-}
-
-.flex-el {
-  margin-left: $card-left-margin;
 }
 
 .location-container {
@@ -82,9 +74,16 @@ $card-left-margin: 15px;
   font-weight: bold;
 }
 
+.apply-button {
+  margin: 10px;
+}
+
 .preview-img {
+  margin: -$card-padding;
+  margin-bottom: 5px;
   height: 225px;
-  border-radius: 15px;
+  object-fit:cover;
+  object-position:50% 50%;
 }
 
 .card:hover {

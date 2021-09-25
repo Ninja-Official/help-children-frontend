@@ -1,12 +1,22 @@
 <template>
   <div class="accent-button">
-    Хочу участвовать!
+    {{ buttonText }}
+    <img v-if="buttonImage !== ''" v-bind:src="buttonImage">
   </div>
 </template>
 
 <script>
   export default {
-    
+    props: {
+      buttonText: {
+        type: String,
+        default: ""
+      },
+      buttonImage: {
+        type: String,
+        default: ""
+      }
+    }
   }
 </script>
 
@@ -15,7 +25,6 @@
 @import "../assets/constants.scss";
 
 .accent-button {
-  margin: 15px 20px;
   display: flex;
   justify-content: center; 
   align-items: center;
