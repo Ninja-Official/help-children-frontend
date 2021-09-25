@@ -20,6 +20,7 @@
   display: flex;
   justify-content: center;
   align-content: center;
+  gap: 15px;
 }
 
 </style>
