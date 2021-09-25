@@ -1,6 +1,6 @@
 <template>
   <div>
-    There is gonna be concrete event info
+    Aboba
   </div>
 </template>
 

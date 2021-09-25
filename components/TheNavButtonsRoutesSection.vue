@@ -4,7 +4,7 @@
     <NavCircleSeparator />
     <NavButton button-text="Мероприятия" route="/events" />
     <NavCircleSeparator />
-    <NavButton button-text="Галерея" route="/chat" />
+    <NavButton button-text="Галерея" route="/gallery" />
   </div>
 </template>
 

@@ -1,7 +1,10 @@
 <template>
   <div>
     <PageBase>
-      <p>Aboba</p>
+      <div class="cards-holder">
+        <EventCard name="Test"/>
+        <EventCard name="Test2"/>
+      </div>
     </PageBase>
     <TheCreateEventButton />
   </div>
@@ -13,6 +16,11 @@
   }
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
+
+.cards-holder {
+  display: flex;
+  flex-wrap: wrap;
+}
 
 </style>

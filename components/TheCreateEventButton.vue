@@ -1,10 +1,8 @@
 <template>
-  <NuxtLink to="/events/create">
-    <div class="crt-button">
+  <NuxtLink class="crt-button" to="/events/create">
       <div class="circle">
     
       </div>
-    </div>
   </NuxtLink>
 </template>
 
@@ -17,9 +15,9 @@
 <style scoped>
 
 .crt-button {
-  position: absolute;
-  right: 200px;
-  bottom: 200px;
+  position: fixed;
+  right: 75px;
+  bottom: 75px;
 }
 
 .circle:hover {

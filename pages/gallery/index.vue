@@ -1,6 +1,8 @@
 <template>
   <div>
-    There is gonna be concrete event info
+    <PageBase>
+      
+    </PageBase>
   </div>
 </template>
 
