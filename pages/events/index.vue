@@ -1,6 +1,7 @@
 <template>
   <div>
     There is gonna be events list
+    <TheCreateEventButton />
   </div>
 </template>
 
