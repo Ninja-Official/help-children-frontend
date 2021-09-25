@@ -2,8 +2,8 @@
   <div>
     <PageBase>
       <div class="cards-holder">
-        <EventCard name="Test"/>
-        <EventCard name="Test2"/>
+        <EventCard name="Челленж амонгас тикток взлом жопы"/>
+        <EventCard name="Абоба"/>
       </div>
     </PageBase>
     <TheCreateEventButton />

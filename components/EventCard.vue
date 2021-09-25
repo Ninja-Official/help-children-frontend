@@ -48,7 +48,7 @@ $card-left-margin: 15px;
 .card {
   display: flex;
   width: 400px;
-  height: 300px;
+  height: 400px;
   border-radius: 15px;
   background-color: rgb(255, 255, 255);
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
@@ -57,17 +57,19 @@ $card-left-margin: 15px;
 
   h2 {
     font-size: $font-size-2;
-    margin-left: $card-left-margin;
+    color: $font-bold-color;
+    font-weight: bold;
+    margin-left: $card-left-margin + 6px;
   }
 }
 
 .date-container {
-  display: flex;
-  
+  display: flex; 
+  align-items: center;
+  margin-top: 10px;
+
   .date {
     font-size: $font-size-1;
-    font: bold;    
-    margin: 10px 10px 0px;
   }
 }
 
@@ -77,10 +79,11 @@ $card-left-margin: 15px;
 
 .location-container {
   display: flex;
+  font-weight: bold;
 }
 
 .preview-img {
-  height: 150px;
+  height: 225px;
   border-radius: 15px;
 }
 
@@ -91,6 +94,7 @@ $card-left-margin: 15px;
 .text {
   margin-bottom: 0px;
   color: $font-gray-color;
+  font-weight: 500;
 }
 
 .not-decorate {
