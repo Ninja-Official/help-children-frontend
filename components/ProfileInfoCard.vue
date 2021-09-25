@@ -37,10 +37,10 @@
       </div>
       <meter value="56" max="100" low="10" high="60">Нормальная</meter>
     </div>
-    <button class="card-button" style="margin-bottom: 10px; margin-top: 21px">
-      Я хочу
-    </button>
-    <button class="card-button">Пройти профориентацию</button>
+    <div class="card-buttons">
+      <ActionButton class="apply-button button-margin" buttonText="Я хочу" />
+      <ActionButton class="apply-button" buttonText="Пройти профориентацию" />
+    </div>
   </div>
 </template>
 
@@ -50,21 +50,10 @@ export default {};
 
 <style lang="scss" scoped>
 @import "../assets/constants.scss";
-.card-button {
-  font-size: 18px;
 
-  align-items: center;
-
-  color: $font-bright-color;
-
-  width: 100%;
-  height: 50px;
-
-  padding: 0;
-  border: none;
-
-  background: $accent-color-red;
-  border-radius: 10px;
+.button-margin {
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
 meter {
   width: 100%;
