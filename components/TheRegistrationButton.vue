@@ -1,7 +1,7 @@
 <template>
   <div>
     <button id="reg-button">
-      Зарегистрироваться
+      Регистрация
     </button>
   </div>
 </template>
@@ -14,9 +14,11 @@
 
 <style scoped>
 
-#login-button {
-  background: brown;
+#reg-button {
+  background: #FF4459;
   color: white;
+  border-radius: 15px;
+  border-color: transparent;
 }
 
 </style>

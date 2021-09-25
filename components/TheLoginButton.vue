@@ -1,7 +1,7 @@
 <template>
   <div>
     <button id="login-button">
-      Войти в аккаунт
+      Войти
     </button>
   </div>
 </template>
@@ -15,8 +15,9 @@
 <style scoped>
 
 #login-button {
-  background: brown;
-  color: white;
+  margin-right: 15px;
+  border-radius: 15px;
+  border-color: transparent;
 }
 
 </style>

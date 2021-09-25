@@ -19,10 +19,10 @@
 }
 
 .logo-circle {
-  background-color: #FF8099;
+  background-color: #FF4459;
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
 }
 
 </style>
