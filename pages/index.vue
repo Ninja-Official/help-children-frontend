@@ -1,8 +1,5 @@
 <template>
-  <PageBase
-    :style="{ backgroundImage: `url(${backgroundRectangleImage})` }"
-    class="background-rectangle"
-  >
+  <PageBase>
     <h1 class="page-text page-title">
       Добро пожаловать на <br /><span class="page-title-bottom"
         >платформу <span class="highlighted-word">добрых</span> дел</span
@@ -216,13 +213,6 @@
   border-radius: 999px;
 }
 
-.background-rectangle {
-  background-position: right top;
-  background-repeat: no-repeat;
-  background-attachment: inherit;
-  background-size: 50%;
-}
-
 .map-block {
   position: relative;
 
@@ -237,11 +227,10 @@
 </style>
 
 <script>
-import backgroundRectangleImage from "~/assets/rectangle.png";
 import mapImage from "~/assets/map.png";
 export default {
   data() {
-    return { backgroundRectangleImage, mapImage };
+    return { mapImage };
   },
   computed: {
     usersCount() {
