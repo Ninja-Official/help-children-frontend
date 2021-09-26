@@ -208,9 +208,9 @@
 
   // display: inline;
 
-  background-color: #55efc4;
+  // background-color: #55efc4;
 
-  border-radius: 999px;
+  // border-radius: 999px;
 }
 
 .map-block {
