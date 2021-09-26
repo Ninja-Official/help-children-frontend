@@ -9,25 +9,25 @@
         <div class="achievement">
           <img
             class="achievement-img"
-            src="https://via.placeholder.com/100x100"
+            src="~/assets/achievements/Ellipse 1.png"
           />
         </div>
         <div class="achievement">
           <img
             class="achievement-img"
-            src="https://via.placeholder.com/100x100"
+            src="~/assets/achievements/Ellipse 2.png"
           />
         </div>
         <div class="achievement">
           <img
             class="achievement-img"
-            src="https://via.placeholder.com/100x100"
+            src="~/assets/achievements/Ellipse 3.png"
           />
         </div>
         <div class="achievement">
           <img
             class="achievement-img"
-            src="https://via.placeholder.com/100x100"
+            src="~/assets/achievements/Ellipse 4.png"
           />
         </div>
       </div>
