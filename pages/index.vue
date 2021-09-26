@@ -48,16 +48,18 @@
       >
         <!-- Text slides with image -->
         <b-carousel-slide
-          img-src="https://picsum.photos/1024/480/?image=52"
+          img-src="https://online-woman.ru/wp-content/uploads/2021/04/emceuusavvu23jhswlum.jpg"
         ></b-carousel-slide>
 
         <!-- Slides with custom text -->
-        <b-carousel-slide img-src="https://picsum.photos/1024/480/?image=54">
+        <b-carousel-slide
+          img-src="https://1ul.ru/upload/file/publication/materinsky_kapital_na_detsky_sad.jpg"
+        >
         </b-carousel-slide>
 
         <!-- Slides with image only -->
         <b-carousel-slide
-          img-src="https://picsum.photos/1024/480/?image=58"
+          img-src="https://maminygolok.ru/wp-content/uploads/2017/10/2703-3-1.jpg"
         ></b-carousel-slide>
       </b-carousel>
     </div>
