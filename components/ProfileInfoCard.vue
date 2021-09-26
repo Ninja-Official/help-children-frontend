@@ -7,7 +7,7 @@
   >
     <div id="user-info">
       <div class="avatar">
-        <img class="avatar-image" src="https://via.placeholder.com/64x64" />
+        <img class="avatar-image" src="~/assets/avatar.png" />
       </div>
       <div>
         <p class="name">Иван Иванов</p>
